@@ -1,0 +1,122 @@
+@media (max-width: 1353px) {
+    .home {
+        justify-content: center;
+    }
+
+    .header__text-block {
+        padding: 0 60px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sample__block {
+        justify-content: center;
+    }
+
+    .foryou {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .foryou__text-block {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .product__img-block {
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .product__text-block {
+        margin-top: 30px;
+    }
+
+    .foryou__text-block .title {
+        margin-top: -200px;
+    }
+
+    .join__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .join__img-block {
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .join__text-block {
+        border-radius: 10px;
+    }
+
+    .brand__block {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .footer__first {
+        margin-left: 0;
+    }
+
+    .footer__block {
+        flex-wrap: wrap;
+    }
+
+    .footer__item {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__img-block {
+        display: none;
+    }
+
+    .header__list {
+        justify-content: center;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .header__btn {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .join__text-block {
+        padding: 0 20px;
+    }
+
+    .foryou__img-block {
+        display: none;
+    }
+
+    .join__table {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .join__checkbox {
+        flex-direction: column;
+    }
+
+    .join__btn {
+        margin-top: -50px;
+    }
+
+    .join__img-block {
+        display: none;
+    }
+}
